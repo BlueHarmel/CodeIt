@@ -1,0 +1,25 @@
+Git
+
+1. 레포지토리(Repository) : 커밋이 저장되는 곳 / 프로젝트 디렉토리의 각 버전이 담기는 저장소
+
+
+
+2. 커밋(Commit) : 프로젝트 디렉토리의 특정 모습을 하나의 버전으로 남기는 행위 & 결과물
+
+커밋하는 당시의 프로젝트 디렉토리의 모습이 하나의 사진처럼 레포지토리에 저장됨
+이것을 참조하면 당시의 디렉토리의 모습을 볼 수 있음(버전 관리)
+
+Commit에 관한 주의사항
+
+1.처음으로 커밋을 하기 전 사용자의 이름과 이메일 주소를 설정!
+2.커밋 메시지 남기기(옵션 -m)
+3.커밋할 파일을 git add로 지정해주기
+
+@깃의 작업 영역 3가지
+1.working directory / working tree : 작업을 하는 프로젝트 디렉토리(MathTool 디렉토리)
+2.staging area / index : git add를 한 파일들이 존재하는 영역(커밋 할 경우 이 영역에 있는 파일들만 커밋에 반영된다)
+3.repository : working directory의 변경 이력들이 저장되어 있는 영역(커밋들이 저장되는 영역)
+
+예시 이미지들:
+https://codeit-images.s3.ap-northeast-2.amazonaws.com/images/5e345231f974fb2074b368c1/git%20%E1%84%82%E1%85%A9%E1%84%90%E1%85%B3.001.png?1587714756098
+https://codeit-images.s3.ap-northeast-2.amazonaws.com/images/5e345231f974fb2074b368c1/git%20%E1%84%82%E1%85%A9%E1%84%90%E1%85%B3.002.png?1587714789711
